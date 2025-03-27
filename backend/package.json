@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
+    "nodemon": "^3.1.7"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "@faker-js/faker": "^9.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
